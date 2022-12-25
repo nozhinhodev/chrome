@@ -7,7 +7,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .nav__bar{
-    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -41,13 +40,16 @@ a{
     flex-direction: column;
 }
 
-.big__btn{
-    margin-top: 5%;
+.main__btn{
     font-weight: 600;
-
-    color: white ;
-    font-size: 36px;
+    font-size: 28px;
+    color: white;
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(235, 3, 255, 0.5) 0%, rgba(0, 56, 255, 0.5) 100%);
     border-radius: 15px;
-    padding: 20px 54px;
-    background-color: none;
+    border: none;
+    margin-top: 20px;
+}
+.tick__img{
+    width: 30%;
 }
