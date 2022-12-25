@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav__bar{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+    border:  0.5px  solid black;
+}
+.left{
+    width: 20%;
+}
+.right{
+    display: flex;
+    gap: 4%;
+    width: 60%;
+}
+.add__margin{
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 15px;
+}
+.change__lang{
+    cursor: pointer;
+}
+.devider{
+    border: 0.1px solid #000000;
+}
+section, .perehod{
+    position: relative;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.buttons__container{
+    gap: 46px;
+    margin-top: 6%;
+    display: flex;
+}
+button{
+    cursor: pointer;
+}
+.main__button{
+    padding: 20px 30px;
+    background: linear-gradient(269.86deg, rgba(0, 56, 255, 0.368) -43.23%, rgba(235, 3, 255, 0.8) 113.19%);
+    border-radius: 10px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.main__button2{
+    padding: 20px 30px;
+    background: linear-gradient(89.48deg, rgba(0, 56, 255, 0.68) 0.45%, #EB03FF 102.85%);
+    border-radius: 10px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.profit{
+    display: flex;
+    gap: 70px;
+    margin-top: 10%;
+}
+.mini__devider{
+    margin: 5% auto; 
+    width: 30%;
+    border: 1px solid #000000;
+}
+h1{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    background-color: #2C2C2C;
+    margin-top: 10%;
+    padding: 5% 15%;
+    flex-direction: column;
+}
+.footer__link{
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer__link1{
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.blur__left{
+    z-index: -1;
+    position: absolute;
+    width: 489px;
+    height: 467px;
+    left: -25%;
+    top: 30%;
+    filter: blur(75px);
+}
+.blur__right{
+    position: absolute;
+    width: 250px;
+    height: 467px;
+    right: 0;  
+    top: 40%;
+    background: rgba(235, 3, 255, 0.5);
+    filter: blur(75px);
+}
+.one__blur{
+    background: rgba(0, 56, 255, 0.46);
+}
+.two__blur{
+    background: rgba(235, 3, 255, 0.5);
+}
+.three__blur{
+    background: rgba(250, 255, 0, 0.46);
+}
+.four__blur{
+    background: rgba(255, 143, 41, 0.46);
+}
+.five__blur{
+    background: rgba(11, 170, 27, 0.46);
+}

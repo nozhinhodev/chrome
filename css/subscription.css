@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    gap: 100px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar{
+    height: 140vh;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid black;
+    padding-top: 5%;
+}
+.content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.sidebar__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.sidebar__link{
+    margin-top: 25px;
+}
+.header__title{
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+.header__title__img{
+    width: 30px;
+}
+.graph, .verdict, .key__words{
+    margin-top: 3%;
+}
+.verdict__yellow, .verdict__green{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.yellow__block{
+    width: 60px;
+    height: 60px;
+    background: #F2C94C;
+    border-radius: 5px; 
+}
+.yelllow__text, .green__text{
+    font-weight: 700;
+    font-size: 20px;
+}
+.green__block{
+    width: 60px;
+    height: 60px;
+    background: #1CCA00;
+    border-radius: 5px; 
+}
+.key__words__title{
+    text-align: center;
+}
+.key__words__container{
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.bad__script__list{
+    cursor: pointer;
+    margin-top: 7%;
+    font-weight: 700;
+    font-size: 14px;
+
+    background: none;
+    border: 1px solid #FF0000;
+    border-radius: 15px;
+    padding: 19px 29px;
+}
